@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="rrbot">
+
+  <xacro:include filename="materials.xacro" />
+  <xacro:include filename="table_macro.xacro"/>
+
+  <link name="world" />
+
+  <xacro:table prefix="table1_" parent="world">
+  </xacro:table>
+
+</robot>
