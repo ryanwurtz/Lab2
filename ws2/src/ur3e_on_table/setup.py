@@ -31,6 +31,7 @@ setup(
         'console_scripts': [
             'test = ur3e_on_table.joint_publisher_test:main',
             'lissajous = ur3e_on_table.joint_publisher_lissajous:main',
+            'pick-and-place = ur3e_on_table.joint_publisher_pick_and_place:main',
         ],
     },
 )
