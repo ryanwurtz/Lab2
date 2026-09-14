@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-  <xacro:macro name="table" params="prefix parent">
+  <xacro:macro name="table" params="prefix parent *origin">
 
     <!-- Constants for robot dimensions -->
     <xacro:property name="table_length" value="1" /> 
@@ -22,8 +22,8 @@
         </visual>
     </link>
 
-    <joint name="${prefix}world_top_joint" type="fixed">
-        <origin rpy="0 0 0" xyz="0 0 ${table_height}" />
+    <joint name="${prefix}base_joint" type="fixed">
+        <xacro:insert_block name="origin" />
         <parent link="${parent}" />
         <child link="${prefix}top" />
     </joint>
