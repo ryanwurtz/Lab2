@@ -6,7 +6,7 @@ Panels:
       Expanded:
         - /Global Options1
         - /Status1
-        - /TF1
+        - /RobotModel1
       Splitter Ratio: 0.5
     Tree Height: 555
   - Class: rviz_common/Selection
@@ -47,82 +47,6 @@ Visualization Manager:
       Plane: XY
       Plane Cell Count: 10
       Reference Frame: <Fixed Frame>
-      Value: true
-    - Class: rviz_default_plugins/TF
-      Enabled: true
-      Filter (blacklist): ""
-      Filter (whitelist): ""
-      Frame Timeout: 15
-      Frames:
-        All Enabled: true
-        base:
-          Value: true
-        base_link:
-          Value: true
-        base_link_inertia:
-          Value: true
-        flange:
-          Value: true
-        forearm_link:
-          Value: true
-        ft_frame:
-          Value: true
-        shoulder_link:
-          Value: true
-        table_leg1:
-          Value: true
-        table_leg2:
-          Value: true
-        table_leg3:
-          Value: true
-        table_leg4:
-          Value: true
-        table_top:
-          Value: true
-        tool0:
-          Value: true
-        upper_arm_link:
-          Value: true
-        world:
-          Value: true
-        wrist_1_link:
-          Value: true
-        wrist_2_link:
-          Value: true
-        wrist_3_link:
-          Value: true
-      Marker Scale: 1
-      Name: TF
-      Show Arrows: false
-      Show Axes: false
-      Show Names: false
-      Tree:
-        world:
-          table_top:
-            base_link:
-              base:
-                {}
-              base_link_inertia:
-                shoulder_link:
-                  upper_arm_link:
-                    forearm_link:
-                      wrist_1_link:
-                        wrist_2_link:
-                          wrist_3_link:
-                            flange:
-                              tool0:
-                                {}
-                            ft_frame:
-                              {}
-            table_leg1:
-              {}
-            table_leg2:
-              {}
-            table_leg3:
-              {}
-            table_leg4:
-              {}
-      Update Interval: 0
       Value: true
     - Alpha: 1
       Class: rviz_default_plugins/RobotModel
@@ -234,6 +158,82 @@ Visualization Manager:
       Update Interval: 0
       Value: true
       Visual Enabled: true
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Filter (blacklist): ""
+      Filter (whitelist): ""
+      Frame Timeout: 15
+      Frames:
+        All Enabled: true
+        base:
+          Value: true
+        base_link:
+          Value: true
+        base_link_inertia:
+          Value: true
+        flange:
+          Value: true
+        forearm_link:
+          Value: true
+        ft_frame:
+          Value: true
+        shoulder_link:
+          Value: true
+        table_leg1:
+          Value: true
+        table_leg2:
+          Value: true
+        table_leg3:
+          Value: true
+        table_leg4:
+          Value: true
+        table_top:
+          Value: true
+        tool0:
+          Value: true
+        upper_arm_link:
+          Value: true
+        world:
+          Value: true
+        wrist_1_link:
+          Value: true
+        wrist_2_link:
+          Value: true
+        wrist_3_link:
+          Value: true
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: false
+      Show Axes: false
+      Show Names: false
+      Tree:
+        world:
+          table_top:
+            base_link:
+              base:
+                {}
+              base_link_inertia:
+                shoulder_link:
+                  upper_arm_link:
+                    forearm_link:
+                      wrist_1_link:
+                        wrist_2_link:
+                          wrist_3_link:
+                            flange:
+                              tool0:
+                                {}
+                            ft_frame:
+                              {}
+            table_leg1:
+              {}
+            table_leg2:
+              {}
+            table_leg3:
+              {}
+            table_leg4:
+              {}
+      Update Interval: 0
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -280,7 +280,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 4.0107622146606445
+      Distance: 4.086756229400635
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -295,10 +295,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.7203977108001709
+      Pitch: 0.7653980255126953
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 5.223580837249756
+      Yaw: 5.363582134246826
     Saved: ~
 Window Geometry:
   Displays:
