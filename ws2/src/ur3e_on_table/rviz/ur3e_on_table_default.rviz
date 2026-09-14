@@ -125,7 +125,7 @@ Visualization Manager:
         tool0:
           Alpha: 1
           Show Axes: false
-          Show Trail: false
+          Show Trail: true
         upper_arm_link:
           Alpha: 1
           Show Axes: false
